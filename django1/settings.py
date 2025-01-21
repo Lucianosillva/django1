@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7yu6#cyku)e7f_fv!o86p4)o5k8psd8+i*h8&558%4m&%d@iz@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #usado durante o desenvolvimento, em produção usa False
+DEBUG = True #usado durante o desenvolvimento, em produção usa False
 
 ALLOWED_HOSTS = ['*']#como vamos publicar no heruku (grátis) ele dará qualquer nome para o domínio, por isso deixar o *. Depois de publicado saberemos o nome e poderemos colocá-lo no lugar do *.
 
