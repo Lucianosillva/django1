@@ -34,3 +34,5 @@ def error404(request, ex):#apresenta página personalizada de erro (404)
 def error500(request):#apresenta página personalizada de erro (500)
     template = loader.get_template('500.html')
     return HttpResponse(content=template.render(), content_type='text/html; charset=utf8', status=500)
+
+# testando colaboração.
