@@ -36,3 +36,4 @@ def error500(request):#apresenta página personalizada de erro (500)
     return HttpResponse(content=template.render(), content_type='text/html; charset=utf8', status=500)
 
 # testando colaboração.
+# testando a proteção de branch
